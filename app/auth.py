@@ -1,7 +1,7 @@
 import bcrypt
 import jwt
 from datetime import datetime, timedelta, timezone
-SECRET_KEY = "my_super_secret_key"
+
 ALGORITHM = "HS256"
 
 def hash_password(password: str):
