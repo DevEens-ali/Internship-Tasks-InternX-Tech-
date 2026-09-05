@@ -1,2 +1,5 @@
+
 .env
 aiven-ca.pem
+__pycache__/
+*.pyc
