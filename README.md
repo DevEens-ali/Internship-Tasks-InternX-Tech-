@@ -2,6 +2,8 @@
 
 A RESTful User Management API built with FastAPI, featuring JWT authentication, bcrypt password hashing, CRUD operations, request validation, and MySQL database integration.
 
+Click to visit : https://intern-x-tech-tasks-qf8uwk5ja-none-705d.vercel.app/docs
+
 ## 🚀 Features
 
 - User Registration
