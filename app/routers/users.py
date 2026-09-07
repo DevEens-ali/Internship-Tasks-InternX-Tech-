@@ -6,7 +6,7 @@ from app.schemas import UserResponse,UserUpdate
 from app.database import get_db
 from sqlalchemy.orm import Session
 from fastapi import APIRouter, Depends, HTTPException
-from app.routers.auth import hash_password
+from app.auth import hash_password
 
 router = APIRouter(
     prefix="/users",
@@ -65,7 +65,7 @@ def get_user(
 
 #     return existing_user
     
-@router.put("/{id}", response_model=UserUpdate)
+@router.put("/{id}", response_model=UserResponse)
 def update_user(
     id: int,
     user: UserUpdate,
